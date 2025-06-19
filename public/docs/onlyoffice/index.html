@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+<head><script src="/software-e-learning/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=software-e-learning/livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="
+  Установка офисного пакета ONLYOFFICE
+  #
+
+ONLYOFFICE – это свободный офисный пакет, созданный разработчиками Р7-Офис.
+Для ONLYOFFICE доступны два способа установки:
+
+с помощью deb пакета, скачанного с официального сайта;
+из официального репозитория разработчиков.
+
+Преимуществом установки с помощью deb пакета является простота и интуитивность процесса установки. Недостатком же является отсутствие возможности автоматического обновления, для установки более новой версии программы нужно будет заново повторить весь процесс установки программы вручную.
+Преимуществом установки из официального репозитория разработчика является возможность автоматического обновления программы в будущем, не нужно будет заново вручную скачивать и устанавливать программу, достаточно будет запустить процесс обновления программ. Недостатком установки программ с использованием репозиториев разработчиков является менее интуитивный процесс установки, требующий использования терминала.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#343a40">
+<meta name="color-scheme" content="light dark"><meta property="og:url" content="http://localhost:1313/software-e-learning/docs/onlyoffice/">
+  <meta property="og:site_name" content="Использование отечественного и свободного программного обеспечения">
+  <meta property="og:title" content="Установка офисного пакета ONLYOFFICE">
+  <meta property="og:description" content="Установка офисного пакета ONLYOFFICE # ONLYOFFICE – это свободный офисный пакет, созданный разработчиками Р7-Офис.
+Для ONLYOFFICE доступны два способа установки:
+с помощью deb пакета, скачанного с официального сайта; из официального репозитория разработчиков. Преимуществом установки с помощью deb пакета является простота и интуитивность процесса установки. Недостатком же является отсутствие возможности автоматического обновления, для установки более новой версии программы нужно будет заново повторить весь процесс установки программы вручную.
+Преимуществом установки из официального репозитория разработчика является возможность автоматического обновления программы в будущем, не нужно будет заново вручную скачивать и устанавливать программу, достаточно будет запустить процесс обновления программ. Недостатком установки программ с использованием репозиториев разработчиков является менее интуитивный процесс установки, требующий использования терминала.">
+  <meta property="og:locale" content="ru">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="docs">
+<title>Установка офисного пакета ONLYOFFICE | Использование отечественного и свободного программного обеспечения</title>
+<link rel="icon" href="/software-e-learning/favicon.png" >
+<link rel="manifest" href="/software-e-learning/manifest.json">
+<link rel="canonical" href="http://localhost:1313/software-e-learning/docs/onlyoffice/">
+<link rel="stylesheet" href="/software-e-learning/book.min.d5e59cb0aa8d22a5813c62cd5e25d3d172489a369c61dc3f622ee96ae1ebb457.css" integrity="sha256-1eWcsKqNIqWBPGLNXiXT0XJImjacYdw/Yi7pauHrtFc=" crossorigin="anonymous">
+  <script defer src="/software-e-learning/fuse.min.js"></script>
+  <script defer src="/software-e-learning/en.search.min.c3369aa24d9f3d40fdab3d052cb752463661cd33470f1cb9cd92f42ac7a15020.js" integrity="sha256-wzaaok2fPUD9qz0FLLdSRjZhzTNHDxy5zZL0KsehUCA=" crossorigin="anonymous"></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+</head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="/software-e-learning/"><span>Использование отечественного и свободного программного обеспечения</span>
+  </a>
+</h2>
+
+
+<div class="book-search hidden">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+<script>document.querySelector(".book-search").classList.remove("hidden")</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/alse-17/" class="">Установка Astra Linux SE 1.7</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/alse-18/" class="">Установка Astra Linux SE 1.8</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/synaptics/" class="">Предварительная настройка пакетного менеджера Synaptics</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/yandex-browser/" class="">Установка Яндекс Браузера</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/onlyoffice/" class="active">Установка офисного пакета ONLYOFFICE</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/r7-office/" class="">Установка офисного пакета Р7-Офис</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/idle/" class="">Установка редактора кода IDLE</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/openide/" class="">Установка интерактивной среды разработки OpenIDE</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/pycharm/" class="">Установка интерактивной среды разработки PyCharm</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/vscodium/" class="">Установка редактора кода VSCodium</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/vscode/" class="">Установка редактора кода Visual Studio Code</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/software-e-learning/docs/kumir/" class="">Установка интерактивной среды разработки КуМир</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/software-e-learning/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <h3>Установка офисного пакета ONLYOFFICE</h3>
+
+  <label for="toc-control">
+    
+    <img src="/software-e-learning/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#установка-офисного-пакета-onlyoffice">Установка офисного пакета ONLYOFFICE</a>
+      <ul>
+        <li><a href="#установка-с-использованием-deb-пакета">Установка с использованием deb пакета</a>
+          <ul>
+            <li><a href="#скачивание-deb-пакета">Скачивание deb пакета</a></li>
+            <li><a href="#установка">Установка</a></li>
+          </ul>
+        </li>
+        <li><a href="#установка-с-использованием-репозитория">Установка с использованием репозитория</a>
+          <ul>
+            <li><a href="#запуск-терминала">Запуск терминала</a></li>
+            <li><a href="#установка-1">Установка</a></li>
+            <li><a href="#добавление-репозитория-в-список">Добавление репозитория в список</a></li>
+          </ul>
+        </li>
+        <li><a href="#запуск">Запуск</a></li>
+      </ul>
+    </li>
+    <li><a href="#анкетирование">Анкетирование</a></li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown book-article"><h1 id="установка-офисного-пакета-onlyoffice">
+  Установка офисного пакета ONLYOFFICE
+  <a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d0%be%d1%84%d0%b8%d1%81%d0%bd%d0%be%d0%b3%d0%be-%d0%bf%d0%b0%d0%ba%d0%b5%d1%82%d0%b0-onlyoffice">#</a>
+</h1>
+<p>ONLYOFFICE – это свободный офисный пакет, созданный разработчиками Р7-Офис.</p>
+<p>Для ONLYOFFICE доступны два способа установки:</p>
+<ol>
+<li>с помощью deb пакета, скачанного с официального сайта;</li>
+<li>из официального репозитория разработчиков.</li>
+</ol>
+<p>Преимуществом установки с помощью deb пакета является простота и интуитивность процесса установки. Недостатком же является отсутствие возможности автоматического обновления, для установки более новой версии программы нужно будет заново повторить весь процесс установки программы вручную.</p>
+<p>Преимуществом установки из официального репозитория разработчика является возможность автоматического обновления программы в будущем, не нужно будет заново вручную скачивать и устанавливать программу, достаточно будет запустить процесс обновления программ. Недостатком установки программ с использованием репозиториев разработчиков является менее интуитивный процесс установки, требующий использования терминала.</p>
+<h2 id="установка-с-использованием-deb-пакета">
+  Установка с использованием deb пакета
+  <a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d1%81-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5%d0%bc-deb-%d0%bf%d0%b0%d0%ba%d0%b5%d1%82%d0%b0">#</a>
+</h2>
+<h3 id="скачивание-deb-пакета">
+  Скачивание deb пакета
+  <a class="anchor" href="#%d1%81%d0%ba%d0%b0%d1%87%d0%b8%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5-deb-%d0%bf%d0%b0%d0%ba%d0%b5%d1%82%d0%b0">#</a>
+</h3>
+<p>Для скачивания пакета нужно зайти на страницу загрузки ONLYOFFICE на официальном сайте: <a href="https://www.onlyoffice.com/ru/download-desktop.aspx">https://www.onlyoffice.com/ru/download-desktop.aspx</a> и нажать на кнопку скачивания deb пакета.</p>
+<h3 id="установка">
+  Установка
+  <a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0">#</a>
+</h3>
+<p>Для установки ONLYOFFICE нужно:</p>
+<ol>
+<li>Перейти к скаченному файлу и открыть его, щёлкнув по нему дважды левой кнопкой мыши.</li>
+<li>В появившемся окне нажать «Установить пакет» и ввести пароль администратора.</li>
+<li>После окончания процесса установки нажать «Применить».</li>
+</ol>
+<h2 id="установка-с-использованием-репозитория">
+  Установка с использованием репозитория
+  <a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-%d1%81-%d0%b8%d1%81%d0%bf%d0%be%d0%bb%d1%8c%d0%b7%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5%d0%bc-%d1%80%d0%b5%d0%bf%d0%be%d0%b7%d0%b8%d1%82%d0%be%d1%80%d0%b8%d1%8f">#</a>
+</h2>
+<p>Для установки ONLYOFFICE с использованием официального репозитория необходимо использовать терминал.</p>
+<h3 id="запуск-терминала">
+  Запуск терминала
+  <a class="anchor" href="#%d0%b7%d0%b0%d0%bf%d1%83%d1%81%d0%ba-%d1%82%d0%b5%d1%80%d0%bc%d0%b8%d0%bd%d0%b0%d0%bb%d0%b0">#</a>
+</h3>
+<h4 id="astra-linux-se-17">
+  Astra Linux SE 1.7
+  <a class="anchor" href="#astra-linux-se-17">#</a>
+</h4>
+<ol>
+<li>перейти в меню «Пуск»;</li>
+<li>открыть раздел «Системные»;</li>
+<li>запустить терминал используя ярлык «Терминал fly».</li>
+</ol>
+<h4 id="astra-linux-se-18">
+  Astra Linux SE 1.8
+  <a class="anchor" href="#astra-linux-se-18">#</a>
+</h4>
+<ol>
+<li>перейти в меню «Пуск»;</li>
+<li>открыть раздел «Программы»;</li>
+<li>перейти в раздел «Инструменты»;</li>
+<li>запустить терминал используя ярлык «Konsole».</li>
+</ol>
+<h4 id="сочетание-клавиш">
+  Сочетание клавиш
+  <a class="anchor" href="#%d1%81%d0%be%d1%87%d0%b5%d1%82%d0%b0%d0%bd%d0%b8%d0%b5-%d0%ba%d0%bb%d0%b0%d0%b2%d0%b8%d1%88">#</a>
+</h4>
+<p>Также для запуска терминала во всех версиях Astra Linux можно использовать сочетание клавиш Win + T.</p>
+<h3 id="установка-1">
+  Установка
+  <a class="anchor" href="#%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%ba%d0%b0-1">#</a>
+</h3>
+<p>Для установки пакета из репозитория необходимо установить ключи от этого репозитория. Для этого:</p>
+<ol>
+<li>в домашней папке пользователя создадим скрытую папку «.gnupg» с правами доступа только для создателя с использованием команды:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir -p -m <span style="color:#ae81ff">700</span> ~/.gnupg
+</span></span></code></pre></div><ol start="2">
+<li>добавим ключ репозитория в файл, хранящийся в папке /tmp с использованием команды:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>gpg --no-default-keyring --keyring gnupg-ring:/tmp/onlyoffice.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys CB2DE8E5
+</span></span></code></pre></div><ol start="3">
+<li>изменим права доступа к зашифрованному файлу ключа репозитория с использованием команды:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>chmod <span style="color:#ae81ff">644</span> /tmp/onlyoffice.gpg
+</span></span></code></pre></div><ol start="4">
+<li>изменим владельца файла ключа репозитория с использованием команды:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo chown root:root /tmp/onlyoffice.gpg
+</span></span></code></pre></div><ol start="5">
+<li>переместим файл из временной папки в рекомендованную для хранения связки ключей папку с использованием команды:</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo mv /tmp/onlyoffice.gpg /usr/share/keyrings/onlyoffice.gpg
+</span></span></code></pre></div><h3 id="добавление-репозитория-в-список">
+  Добавление репозитория в список
+  <a class="anchor" href="#%d0%b4%d0%be%d0%b1%d0%b0%d0%b2%d0%bb%d0%b5%d0%bd%d0%b8%d0%b5-%d1%80%d0%b5%d0%bf%d0%be%d0%b7%d0%b8%d1%82%d0%be%d1%80%d0%b8%d1%8f-%d0%b2-%d1%81%d0%bf%d0%b8%d1%81%d0%be%d0%ba">#</a>
+</h3>
+<p>После установки ключей необходимо добавить репозиторий в список репозиториев. Сделаем это с помощью команды:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>echo <span style="color:#e6db74">&#39;deb [signed-by=/usr/share/keyrings/onlyoffice.gpg] https://download.onlyoffice.com/repo/debian squeeze main&#39;</span> | sudo tee /etc/apt/sources.list.d/onlyoffice.list
+</span></span></code></pre></div><p>Установка</p>
+<p>Для установки пакета из добавленного репозитория нужно обновить список доступных пакетов с помощью команды:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt update
+</span></span></code></pre></div><p>Установим ONLYOFFICE:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo apt-get install onlyoffice-desktopeditors
+</span></span></code></pre></div><h2 id="запуск">
+  Запуск
+  <a class="anchor" href="#%d0%b7%d0%b0%d0%bf%d1%83%d1%81%d0%ba">#</a>
+</h2>
+<p>После установки ONLYOFFICE будет доступен в разделе «Офис» меню «Пуск» (в случае, если используется Astra Linux SE 1.7) или в подразделе «Офис» раздела «Программы» меню «Пуск» (в случае, если используется Astra Linux SE 1.8).</p>
+<h1 id="анкетирование">
+  Анкетирование
+  <a class="anchor" href="#%d0%b0%d0%bd%d0%ba%d0%b5%d1%82%d0%b8%d1%80%d0%be%d0%b2%d0%b0%d0%bd%d0%b8%d0%b5">#</a>
+</h1>
+<script src="https://forms.yandex.ru/_static/embed.js"></script><iframe src="https://forms.yandex.ru/u/6852ae2190fa7b66b8c56e5e?iframe=1" frameborder="0" name="ya-form-6852ae2190fa7b66b8c56e5e" width="650"></iframe>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#установка-офисного-пакета-onlyoffice">Установка офисного пакета ONLYOFFICE</a>
+      <ul>
+        <li><a href="#установка-с-использованием-deb-пакета">Установка с использованием deb пакета</a>
+          <ul>
+            <li><a href="#скачивание-deb-пакета">Скачивание deb пакета</a></li>
+            <li><a href="#установка">Установка</a></li>
+          </ul>
+        </li>
+        <li><a href="#установка-с-использованием-репозитория">Установка с использованием репозитория</a>
+          <ul>
+            <li><a href="#запуск-терминала">Запуск терминала</a></li>
+            <li><a href="#установка-1">Установка</a></li>
+            <li><a href="#добавление-репозитория-в-список">Добавление репозитория в список</a></li>
+          </ul>
+        </li>
+        <li><a href="#запуск">Запуск</a></li>
+      </ul>
+    </li>
+    <li><a href="#анкетирование">Анкетирование</a></li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

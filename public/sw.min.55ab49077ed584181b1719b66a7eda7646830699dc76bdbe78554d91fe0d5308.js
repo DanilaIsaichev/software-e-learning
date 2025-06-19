@@ -1,0 +1,1 @@
+navigator.serviceWorker&&navigator.serviceWorker.register("/software-e-learning/sw.js",{scope:"/software-e-learning/"})
