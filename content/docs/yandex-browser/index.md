@@ -69,6 +69,10 @@ sudo apt update && sudo apt install yandex-browser-stable -y
 
 По завершении установки в Astra Linux SE 1.7 Яндекс Браузер будет доступен в разделе «Сеть» меню «Пуск». В Astra Linux SE 1.8 Яндекс Браузер будет доступен в подразделе «Интернет» раздела «Программы» меню «Пуск»
 
+# Тестирование
+
+<script src="https://forms.yandex.ru/_static/embed.js"></script><iframe src="https://forms.yandex.ru/u/6856d63ee010db9fa20c96be?iframe=1" frameborder="0" name="ya-form-6856d63ee010db9fa20c96be" width="650"></iframe>
+
 # Анкетирование
 
 <script src="https://forms.yandex.ru/_static/embed.js"></script><iframe src="https://forms.yandex.ru/u/6852addff47e7367495a2496?iframe=1" frameborder="0" name="ya-form-6852addff47e7367495a2496" width="650"></iframe>
