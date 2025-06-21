@@ -114,3 +114,5 @@ type = 'docs'
 ---
 
 # Анкетирование
+
+<script src="https://forms.yandex.ru/_static/embed.js"></script><iframe src="https://forms.yandex.ru/u/6856d3424936392aab7dc22e?iframe=1" frameborder="0" name="ya-form-6856d3424936392aab7dc22e" width="650"></iframe>
