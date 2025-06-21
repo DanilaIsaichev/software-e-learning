@@ -27,7 +27,7 @@ type = 'docs'
 
 Модуль посвящён установке операционной системы Astra Linux Special Edition 1.7
 
-![Рабочий стол пользователя Astra Linux SE 1.7](./docs/alse-17/images/27-desktop.png)
+![Рабочий стол пользователя Astra Linux SE 1.7](./docs/alse-17/images/29-desktop.png)
 
 [Перейти к модулю](./docs/alse-17)
 
