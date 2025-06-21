@@ -26,6 +26,10 @@ Synaptic - это менеджер пакетов, который позволя
 
 В появившемся окне отключим репозиторий cdrom и включим все остальные сетевые репозитории и нажмём «ОК». После этого появится уведомление о том, что список репозиториев изменён и необходимо нажать кнопку «Обновить». Нажмём эту кнопку и подождём завершения обновления сведений о доступных пакетах. После этого менеджер пакетов будет готов к использованию.
 
+# Тестирование
+
+<script src="https://forms.yandex.ru/_static/embed.js"></script><iframe src="https://forms.yandex.ru/u/6856d4d002848f2b56b0ed15?iframe=1" frameborder="0" name="ya-form-6856d4d002848f2b56b0ed15" width="650"></iframe>
+
 # Анкетирование
 
 <script src="https://forms.yandex.ru/_static/embed.js"></script><iframe src="https://forms.yandex.ru/u/6852abcfd0468866c56f8135?iframe=1" frameborder="0" name="ya-form-6852abcfd0468866c56f8135" width="650"></iframe>
